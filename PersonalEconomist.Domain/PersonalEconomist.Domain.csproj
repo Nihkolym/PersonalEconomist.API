@@ -1,0 +1,83 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190407181118_Initial.cs" />
+    <Compile Remove="Migrations\20190407181951_Initial.cs" />
+    <Compile Remove="Migrations\20190407182646_Initial.cs" />
+    <Compile Remove="Migrations\20190409192537_Initial.cs" />
+    <Compile Remove="Migrations\20190409205834_Initial.cs" />
+    <Compile Remove="Migrations\20190409205834_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190409223950_Initial.cs" />
+    <Compile Remove="Migrations\20190409223950_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190414175349_Initial.cs" />
+    <Compile Remove="Migrations\20190414175349_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190414191218_Initial.cs" />
+    <Compile Remove="Migrations\20190414191218_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190414191508_Initial.cs" />
+    <Compile Remove="Migrations\20190414191508_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190414192336_Initial.cs" />
+    <Compile Remove="Migrations\20190414192336_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190414193005_Initial.cs" />
+    <Compile Remove="Migrations\20190414193005_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190414194639_Initial.cs" />
+    <Compile Remove="Migrations\20190414194639_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190416181909_Initial.cs" />
+    <Compile Remove="Migrations\20190416181909_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190416203128_Initial.cs" />
+    <Compile Remove="Migrations\20190416203128_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190420163557_Initial.cs" />
+    <Compile Remove="Migrations\20190420163557_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190420222026_Initial.cs" />
+    <Compile Remove="Migrations\20190420222026_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190421073327_Initial.cs" />
+    <Compile Remove="Migrations\20190421073327_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190421080622_Initial.cs" />
+    <Compile Remove="Migrations\20190421080622_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190421094311_Initial.cs" />
+    <Compile Remove="Migrations\20190421094311_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190423231029_Initial.cs" />
+    <Compile Remove="Migrations\20190423231029_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190502055134_Initial.cs" />
+    <Compile Remove="Migrations\20190502055134_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190504082316_Initial.cs" />
+    <Compile Remove="Migrations\20190504082316_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190504092402_Initial.cs" />
+    <Compile Remove="Migrations\20190504092402_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190504121750_Initial.cs" />
+    <Compile Remove="Migrations\20190504121750_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190504123420_Initial.cs" />
+    <Compile Remove="Migrations\20190504123420_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190504130604_Initial.cs" />
+    <Compile Remove="Migrations\20190504130604_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190504130823_Initial.cs" />
+    <Compile Remove="Migrations\20190504130823_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190504132009_Initial.cs" />
+    <Compile Remove="Migrations\20190504132009_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190504160340_Initial.cs" />
+    <Compile Remove="Migrations\20190504160340_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190504162220_Initial.cs" />
+    <Compile Remove="Migrations\20190504162220_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190505180833_Initial.cs" />
+    <Compile Remove="Migrations\20190505180833_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190514174023_Initial.cs" />
+    <Compile Remove="Migrations\20190514174023_Initial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>

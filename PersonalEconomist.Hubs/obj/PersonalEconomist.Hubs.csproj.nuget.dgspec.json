@@ -1,0 +1,293 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Hubs\\PersonalEconomist.Hubs.csproj": {}
+  },
+  "projects": {
+    "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Domain\\PersonalEconomist.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Domain\\PersonalEconomist.Domain.csproj",
+        "projectName": "PersonalEconomist.Domain",
+        "projectPath": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Domain\\PersonalEconomist.Domain.csproj",
+        "packagesPath": "C:\\Users\\Nihkolym\\.nuget\\packages\\",
+        "outputPath": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nihkolym\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Entities\\PersonalEconomist.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Entities\\PersonalEconomist.Entities.csproj",
+        "projectName": "PersonalEconomist.Entities",
+        "projectPath": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Entities\\PersonalEconomist.Entities.csproj",
+        "packagesPath": "C:\\Users\\Nihkolym\\.nuget\\packages\\",
+        "outputPath": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nihkolym\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Hubs\\PersonalEconomist.Hubs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Hubs\\PersonalEconomist.Hubs.csproj",
+        "projectName": "PersonalEconomist.Hubs",
+        "projectPath": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Hubs\\PersonalEconomist.Hubs.csproj",
+        "packagesPath": "C:\\Users\\Nihkolym\\.nuget\\packages\\",
+        "outputPath": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Hubs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nihkolym\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Services\\PersonalEconomist.Services.csproj": {
+                "projectPath": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Services\\PersonalEconomist.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Services\\PersonalEconomist.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Services\\PersonalEconomist.Services.csproj",
+        "projectName": "PersonalEconomist.Services",
+        "projectPath": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Services\\PersonalEconomist.Services.csproj",
+        "packagesPath": "C:\\Users\\Nihkolym\\.nuget\\packages\\",
+        "outputPath": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nihkolym\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Domain\\PersonalEconomist.Domain.csproj": {
+                "projectPath": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Domain\\PersonalEconomist.Domain.csproj"
+              },
+              "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Entities\\PersonalEconomist.Entities.csproj": {
+                "projectPath": "C:\\PersonalEconomist\\PersonalEconomist.API\\PersonalEconomist.Entities\\PersonalEconomist.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalEconomist.WebAPI", "PersonalEconomist.WebAPI\PersonalEconomist.WebAPI.csproj", "{B3A7A3AA-F132-4B5D-A492-204ACC4E63FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalEconomist.Services", "PersonalEconomist.Services\PersonalEconomist.Services.csproj", "{6C449F76-AEE4-48DD-8CDC-8E102349EC84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalEconomist.Domain", "PersonalEconomist.Domain\PersonalEconomist.Domain.csproj", "{DCB77B45-5973-4EF0-81B0-3FC26DD44EB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalEconomist.Entities", "PersonalEconomist.Entities\PersonalEconomist.Entities.csproj", "{8EACB357-8738-4787-B045-6FB2CE3160AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalEconomist.Hubs", "PersonalEconomist.Hubs\PersonalEconomist.Hubs.csproj", "{B871D6D5-6067-44A4-8E30-74A7D96AD3FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3A7A3AA-F132-4B5D-A492-204ACC4E63FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A7A3AA-F132-4B5D-A492-204ACC4E63FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A7A3AA-F132-4B5D-A492-204ACC4E63FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A7A3AA-F132-4B5D-A492-204ACC4E63FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C449F76-AEE4-48DD-8CDC-8E102349EC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C449F76-AEE4-48DD-8CDC-8E102349EC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C449F76-AEE4-48DD-8CDC-8E102349EC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C449F76-AEE4-48DD-8CDC-8E102349EC84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB77B45-5973-4EF0-81B0-3FC26DD44EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB77B45-5973-4EF0-81B0-3FC26DD44EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB77B45-5973-4EF0-81B0-3FC26DD44EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB77B45-5973-4EF0-81B0-3FC26DD44EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EACB357-8738-4787-B045-6FB2CE3160AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EACB357-8738-4787-B045-6FB2CE3160AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EACB357-8738-4787-B045-6FB2CE3160AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EACB357-8738-4787-B045-6FB2CE3160AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B871D6D5-6067-44A4-8E30-74A7D96AD3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B871D6D5-6067-44A4-8E30-74A7D96AD3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B871D6D5-6067-44A4-8E30-74A7D96AD3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B871D6D5-6067-44A4-8E30-74A7D96AD3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {041E37A9-9C01-498A-BB3A-471F764BFA74}
+	EndGlobalSection
+EndGlobal
